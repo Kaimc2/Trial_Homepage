@@ -1,0 +1,57 @@
+.container {
+    width: 55%;
+    margin: 0 auto 3% auto;
+}
+
+.button-container1, .button-container2 {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.button-container1 button {
+    width: 300px;
+}
+
+.button-container2 button {
+    width: 300px;
+}
+
+.mat-mdc-outlined-button.mat-primary {
+    --mdc-outlined-button-outline-color:#0277bd;
+    // --mdc-outlined-button-label-text-size: 17px;
+
+}
+
+h1 {
+    font-size: 20px;  /* Adjust the heading font size */
+}
+
+.product{
+  padding: 20px 0;
+}
+
+.slider-wrap{
+  position: relative;
+}
+
+.slider-main{
+  position: absolute;
+  width: 200px;
+}
+
+.item{
+  display: inline-block;
+  width: 300px;
+  height: 150px;
+  background:red ;
+  position: relative;
+}
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
